@@ -8,43 +8,64 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+# junbiao_pang的个人主页
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+### Junbiao Pang
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Add.: No.100 Pingleyuan, Chaoyang District, Beijing Beijing Institute of Technology
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+China Tel.: 15600971177 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Email: junbiao_pang@bjut.edu.cn
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## ABOUT ME 
 
-**Markdown generator**
+I am currently an associate Professor at Beijing University of Technology and a Ph.D. supervisor. I am a researcher of Beijing Key Laboratory, a senior member of CCF, and a member of CCF Multimedia Specialized Committee. I received Ph.D. from Prof. Qingming Huang and co-founded with him the Social Multimedia Data Analysis Group at BIT. With the support of a number of national, provincial and municipal projects, I have conducted research on image and video understanding, intelligent human-computer interaction, cross-media analysis and reasoning, and intelligent transportation. I have published more than 60 papers in IEEE/ACM journals and top academic conferences. I preside over the research projects of National Foundation, Military Science and Technology Commission, and participate in the key projects of National Foundation, 973 projects, 863 projects and other projects. I designed and developed a deep learning based structural parsing system for telecommunication drawings to support China Unicom to build a digital twin system for rapid semanticization of a large number of telecommunication drawings, designed and developed a vehicle parking behavior parsing module for on-street vehicle parking in Beijing to support the implementation of a large-scale on-street automated parking charging system in Beijing.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## EDUCATION 
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Institute of Computing Technology, Chinese Academy
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+&emsp;&emsp;&emsp;&emsp;Ph.D.&emsp;&emsp;&emsp;&emsp;&ensp;Technology for Computer Applications&emsp;&emsp;&emsp;&emsp;09/2005～06/2011
+  
+Harbin Institute of Technology  
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+&emsp;&emsp;&emsp;&emsp;M.S.&emsp;&emsp;&emsp;&emsp;&emsp;Computer Science and Technology&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;09/2002～06/2004
+
+Harbin Institute of Technology  
+
+&emsp;&emsp;&emsp;&emsp;B.S.&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Computational Fluid Dynamics&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&ensp;09/1998～06/2002
+
+
+## RESEARCH EXPERIENCE 
+
+Associate Professor&emsp;&emsp;&emsp;&emsp;&nbsp;Beijing University of Technology&emsp;&emsp;&emsp;&emsp;12/2013 - Present 
+
+&emsp;&emsp;&emsp;Tutors&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Beijing University of Technology&emsp;&emsp;&emsp;&emsp;07/2011 - 12/2013 
+
+&emsp;Visiting Scholar&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;NEC Labs China&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;09/2010 - 07/2011
+
+&emsp;&emsp;&emsp;Engineer&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Huawei Technologies Co., Ltd&emsp;&emsp;&emsp;&emsp;&emsp;07/2004 - 07/2005
+
+
+## PUBLICATIONS
+
+1. Junbiao Pang ; Jing Huang ; Yong Du ; Haitao Yu ; Qingming Huang ; Baocai Yin：Learning to Predict Bus Arrival Time From Heterogeneous Measurements via Recurrent Neural Network,　IEEE Transactions on Intelligent Transportation Systems (SCI, JCR Q1) ( Early Access )
+2. Junbiao Pang ; Anjing Hu ; Qingming Huang ; Qi Tian ; Baocai Yin: Increasing Interpretation of Web Topic Detection via Prototype Learning From Sparse Poisson Deconvolution,IEEE Transactions on Cybernetics (SCI, JCR Q1) ( Early Access )
+3. Junbiao Pang ; Fei Tao ; Qingming Huang ; Qi Tian ; Baocai Yin: Two Birds With One Stone: A Coupled Poisson Deconvolution for Detecting and Describing Topics From Multimodal Web Data,IEEE Transactions on Neural Networks and Learning Systems(SCI, JCR Q1) ( Early Access )
+4. Jinzhong Lin, Junbiao Pang, Li Su, Yugui Liu, Qingming Huang:Accelerating Topic Detection on Web for a Large-Scale Data Set via Stochastic Poisson Deconvolution. MMM (1) 2019: 590-602
+5. Junbiao Pang, Fei Tao, Liang Li, Qingming Huang, Baocai Yin, Qi Tian: A two-step approach to describing web topics via probable keywords and prototype images from background-removed similarities. Neurocomputing 275: 478-487 (2018) (SCI, JCR Q2)
+6. Junbiao Pang, Jing Huang, Xue Yang, Zuyun Wang, Haitao Yu, Qingming Huang, Baocai Yin: Discovering Fine-Grained Spatial Pattern From Taxi Trips: Where Point Process Meets Matrix Decomposition and Factorization. IEEE Trans. Intelligent Transportation Systems 19(10): 3208-3219 (2018) (SCI, JCR Q1)
+7. Junbiao Pang, Jing Huang, Lei Qin, Weigang Zhang, Laiyun Qing, Qingming Huang, Baocai Yin:Rotative maximal pattern: A local coloring descriptor for object classification and recognition. Inf. Sci. 405: 190-206 (2017) (SCI, JCR Q1)
+8. Junbiao Pang, Jing Huang, Weigang Zhang, Qingming Huang, Baocai Yin:Justify role of Similarity Diffusion Process in cross-media topic ranking: an empirical evaluation. Multimedia Tools Appl. 76(23): 25145-25157 (2017) (SCI, JCR Q3)
+9. Junbiao Pang, Fei Tao, Chunjie Zhang, Weigang Zhang, Qingming Huang, Baocai Yin:Robust Latent Poisson Deconvolution From Multiple Features for Web Topic Detection. IEEE Trans. Multimedia 18(12): 2482-2493 (2016) (SCI, JCR Q1)
+10. Junbiao Pang, Huihuang Lin, Li Su, Chunjie Zhang, Weigang Zhang, Lijuan Duan, Qingming Huang, Baocai Yin:Accelerate convolutional neural networks for binary classification via cascading cost-sensitive feature. ICIP 2016: 1037-1041 (CCF B)
+11. Junbiao Pang, Chunjie Zhang, Lei Qin, Weigang Zhang, Laiyun Qing, Qingming Huang, Baocai Yin:Online dictionary learning for Local Coordinate Coding with Locality Coding Adaptors. Neurocomputing 157: 61-69 (2015) (SCI, JCR Q2)
+12. Junbiao Pang, Lei Qin, Chunjie Zhang, Weigang Zhang, Qingming Huang, Baocai Yin:Local Laplacian Coding From Theoretical Analysis of Local Coding Schemes for Locally Linear Classification. IEEE Trans. Cybernetics 45(12): 2937-2947 (2015) (SCI, JCR Q1)
+13. Chunjie Zhang, Jian Cheng, Jing Liu, Junbiao Pang, Qingming Huang, Qi Tian:Beyond Explicit Codebook Generation: Visual Representation Using Implicitly Transferred Codebooks. IEEE Trans. Image Processing 24(12): 5777-5788 (2015) (SCI, JCR Q1)
+14. Junbiao Pang, Fei Jia, Chunjie Zhang, Weigang Zhang, Qingming Huang, Baocai Yin:Unsupervised Web Topic Detection Using A Ranked Clustering-Like Pattern Across Similarity Cascades. IEEE Trans. Multimedia 17(6): 843-853 (2015) (SCI, JCR Q1)
+15. Junbiao Pang, Qingming Huang, Baocai Yin, Lei Qin, Dan Wang: Theoretical analysis of learning local anchors for classification. ICPR 2012: 1803-1806 (CCF B)
+16. Qingyuan Wang, Junbiao Pang, Guoyi Liu, Lei Qin, Qingming Huang, Shuqiang Jiang:Color Maximal-Dissimilarity Pattern for pedestrian detection. ICPR 2012: 1952-1955 (CCF B)
+17. Junbiao Pang, Qingming Huang, Shuicheng Yan, Shuqiang Jiang, Lei Qin: Transferring Boosted Detectors Towards Viewpoint and Scene Adaptiveness. IEEE Trans. Image Processing 20(5): 1388-1400 (2011) (SCI, JCR Q1)
+18. Junbiao Pang, Qingming Huang, Shuqiang Jiang:Multiple Instance Boost Using Graph Embedding Based Decision Stump for Pedestrian Detection. ECCV (4) 2008: 541-552
+
